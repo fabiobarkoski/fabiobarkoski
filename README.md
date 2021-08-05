@@ -1,9 +1,16 @@
-### Hi there 👋
+### Hey, welcome to my GitHub!
+My name is Fábio and current I'm studying to learn more about Python and Back-End Programming
+
+My Objectives:
+- Learn more I can
+- Can understand and code in Assembly language and another low level language
+- And build a Emulator
+
 
  <div>
   <a href="https://github.com/fabiobarkoski">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fabiobarkoski&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiobarkoski&layout=compact&langs_count=7&theme=dracula"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fabiobarkoski&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiobarkoski&layout=compact&langs_count=7&theme=radical"/>
 </div>
  
 <div style="display: inline_block"><br>
