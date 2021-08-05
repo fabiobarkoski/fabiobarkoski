@@ -1,9 +1,9 @@
 ### Hey, welcome to my GitHub!
-My name is Fábio and current I'm studying to learn more about Python and Back-End Programming
+My name is Fábio and current I'm studying Python and Back-End Programming
 
-My Objectives:
-- Learn more I can
-- Can understand and code in Assembly language and another low level language
+Objectives:
+- Learn as much I can
+- Be able to understand and code in Assembly language and another low level language
 - And build a Emulator
 
 
