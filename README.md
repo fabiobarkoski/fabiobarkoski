@@ -22,6 +22,5 @@ If you want share some knowledge with me I will be very glad, so mail me!
  
  ##
  
-  <a href = "mailto:fabiobarkoskii@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/fabio-barkoski/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href="https://www.buymeacoffee.com/fabiobarkoski"><img width="102" src="https://user-images.githubusercontent.com/65479069/236824766-fcc4f6f2-57bf-4220-97fe-a80d4eb18e42.png" target="_blank"></a> <img >
+  
