@@ -1,18 +1,11 @@
 ### Hey, welcome to my GitHub!
-My name is Fábio and current I'm studying Python and Back-End Programming
+My name is Fábio and I'm a Software Developer, currently working with Python and trying to contribute as much as I can to open-source projects.
 
 Objectives:
-- Learn as much I can
-- Be able to understand and code in Assembly language and another low level language
-- And build a Emulator
+- Be able to understand and code in Assembly language and another low-level language
+- And build an Emulator(Yes, I want to try to build my own Game Boy from scratch)
 
-If you want share some knowledge with me I will be very glad, so mail me!
-
- <div>
-  <a href="https://github.com/fabiobarkoski">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fabiobarkoski&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiobarkoski&layout=compact&langs_count=7&theme=radical"/>
-</div>
+If you want to share some knowledge with me I will be happy, so message me on Matrix :)
  
 <div style="display: inline_block"><br>
   <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
@@ -23,4 +16,5 @@ If you want share some knowledge with me I will be very glad, so mail me!
  ##
  
   <a href="https://www.linkedin.com/in/fabio-barkoski/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  
+  <a href="https://matrix.to/#/@fabiovb:matrix.org" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/Matrix-black?style=for-the-badge&logo=matrix&logoColor=white" target="_blank">
+</a>
