@@ -1,0 +1,35 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Profile Updater
+
+on:
+  schedule:
+    - cron:  "0 0 * * 1,4*"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: "20.10"
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm install --production
+
+    - name: Create new README
+      run: npm run create
+      
+    - name: Send new README to GitHub
+      run: |
+          git diff
+          git config --global user.email "readme-bot@github.com"
+          git config --global user.name "README-bot"
+          git add -A
+          git commit -m "Generated readme" || exit 0
+          git push
