@@ -7,7 +7,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "create": "node src/main.js",
+    "update": "node src/main.js",
     "format": "npx prettier . --write",
     "check": "npx prettier . --check"
   },
@@ -15,8 +15,6 @@
   "author": "fabiobarkoski",
   "license": "ISC",
   "dependencies": {
-    "markdown-it": "^14.0.0",
-    "node-emoji": "^2.1.3",
     "octokit": "^3.1.2"
   },
   "devDependencies": {

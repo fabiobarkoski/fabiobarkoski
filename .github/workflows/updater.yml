@@ -23,8 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm install --production
 
-      - name: Create new README and format
-        run: npm run create && npm run format
+      - name: Update README and format
+        run: npm run update && npm run format
 
       - name: Send new README to GitHub
         run: |
