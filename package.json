@@ -1,0 +1,31 @@
+{
+  "name": "profile-updater",
+  "version": "1.0.0",
+  "description": "simple script to update the vectors with the most recent projects",
+  "main": "src/main.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "create": "node src/main.js",
+    "format": "npx prettier . --write",
+    "check": "npx prettier . --check"
+  },
+  "type": "module",
+  "author": "fabiobarkoski",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-it": "^14.0.0",
+    "node-emoji": "^2.1.3",
+    "octokit": "^3.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "3.2.4"
+  }
+}

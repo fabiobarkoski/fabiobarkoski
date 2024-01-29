@@ -4,29 +4,30 @@
 name: Profile Updater
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron:  "0 0 * * 1,4*"
+    - cron: "0 0 * * 1,4"
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: "20.10"
-        cache: 'npm'
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.10"
+          cache: "npm"
 
-    - name: Install dependencies
-      run: npm install --production
+      - name: Install dependencies
+        run: npm install --production
 
-    - name: Create new README
-      run: npm run create
-      
-    - name: Send new README to GitHub
-      run: |
+      - name: Create new README and format
+        run: npm run create && npm run format
+
+      - name: Send new README to GitHub
+        run: |
           git diff
           git config --global user.email "readme-bot@github.com"
           git config --global user.name "README-bot"
