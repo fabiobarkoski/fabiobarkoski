@@ -27,8 +27,9 @@ getRepos().then((repos, err) => {
   if (err) throw err;
   repos.forEach((value) => {
     metadata.push({
-      name: value.name,
-      url: value.html_url,
+      repoName: value.name,
+      repoOwner: value.owner.login,
+      repoUrl: value.html_url,
     });
   });
   if (metadata) {
